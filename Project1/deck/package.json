@@ -1,0 +1,10 @@
+{
+  "name": "feminiz-rfm-deck",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Génère le deck Feminiz_RFM_Decel.pptx avec pptxgenjs",
+  "main": "build_deck.js",
+  "dependencies": {
+    "pptxgenjs": "^4.0.1"
+  }
+}
