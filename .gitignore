@@ -1,0 +1,13 @@
+# Données et documents fournis par l'enseignante (non publiés)
+Project1/Data/
+*.pdf
+Project1/Notebook_project1_practical_work_empty.ipynb
+
+# Fichiers temporaires Office et Jupyter
+~$*
+.ipynb_checkpoints/
+__pycache__/
+
+# Dépendances Node du script de génération du deck
+node_modules/
+package-lock.json
