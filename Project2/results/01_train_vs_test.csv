@@ -1,0 +1,16 @@
+,Train,Test,KS D,Écart relatif (%)
+Clients,160424.0,40106.0,,
+Tickets,3292994.0,822894.0,,
+Tickets par client : moyenne,20.527,20.518,0.002,-0.043
+Tickets par client : médiane,8.0,8.0,,0.0
+"Récence médiane (jours révolus depuis le dernier achat, au 01/08/2020)",45.0,45.0,0.005,0.0
+Panier moyen d'un ticket d'achat (€),47.337,47.217,,-0.253
+Panier médian (€),29.37,29.3,,-0.238
+Chiffre d'affaires par client sur 12 mois (€),969.71,966.9,0.003,-0.29
+Tickets de retour (% des tickets),0.208,0.204,,-2.205
+Clients avec e-mail (%),54.65,54.673,,0.041
+Clients sans civilité ni multicard : anonymes (%),0.454,0.431,,-5.075
+Clients avec carte de fidélité (%),3.087,3.012,,-2.443
+Clients multicard = 1 (%),3.053,3.102,,1.613
+Clients sans code postal valide (%),19.52,19.581,,0.31
+Clients sans price_segmentation (%),56.749,56.251,,-0.878

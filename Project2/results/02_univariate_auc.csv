@@ -1,0 +1,99 @@
+name,group,type,auc,auc_signed,direction,coverage,kept_after_dedup
+n_tickets_90,Fréquence,num,0.8520068964923084,0.8520068964923084,croissant,1.0,False
+n_tickets_60,Fréquence,num,0.8502759137259803,0.8502759137259803,croissant,1.0,True
+n_tickets_180,Fréquence,num,0.8461327748094597,0.8461327748094597,croissant,1.0,True
+n_tickets_30,Fréquence,num,0.8368181972048269,0.8368181972048269,croissant,1.0,True
+active_weeks_share,Fréquence,num,0.8328636311920029,0.8328636311920029,croissant,0.9999376651872538,True
+items_90,Montant,num,0.8322266422530527,0.8322266422530527,croissant,1.0,False
+recency_prev_days,Récence,num,0.1679287148398392,0.8320712851601608,décroissant,0.8330050366528698,True
+n_active_days,Fréquence,num,0.8293740341976205,0.8293740341976205,croissant,1.0,False
+n_tickets_all,Fréquence,num,0.8291664533013573,0.8291664533013573,croissant,1.0,True
+spend_90,Montant,num,0.8271971168443994,0.8271971168443994,croissant,1.0,True
+spend_60,Montant,num,0.8262151120026358,0.8262151120026358,croissant,1.0,False
+n_active_weeks,Fréquence,num,0.8249090069458225,0.8249090069458225,croissant,1.0,False
+spend_180,Montant,num,0.8220337243289151,0.8220337243289151,croissant,1.0,True
+items_30,Montant,num,0.8207775565123916,0.8207775565123916,croissant,1.0,False
+recency_days,Récence,num,0.18195917439169015,0.8180408256083098,décroissant,0.9999376651872538,True
+spend_30,Montant,num,0.8158549157304498,0.8158549157304498,croissant,1.0,False
+items_all,Montant,num,0.8110535265724831,0.8110535265724831,croissant,1.0,False
+spend_all,Montant,num,0.8048396865956015,0.8048396865956015,croissant,1.0,True
+n_active_months,Fréquence,num,0.803421060502735,0.803421060502735,croissant,1.0,True
+n_tickets_14,Fréquence,num,0.8015495139352907,0.8015495139352907,croissant,1.0,True
+n_tickets_disc,Promotions et retours,num,0.7801057426698451,0.7801057426698451,croissant,1.0,True
+freq_30_vs_rate,Rythme et tendance,num,0.749315662387882,0.749315662387882,croissant,0.9999376651872538,True
+n_tickets_7,Fréquence,num,0.7458679848081109,0.7458679848081109,croissant,1.0,True
+interval_mean_days,Rythme et tendance,num,0.25805796332365244,0.7419420366763476,décroissant,0.8330050366528698,True
+interval_median_days,Rythme et tendance,num,0.2611286237475708,0.7388713762524293,décroissant,0.8330050366528698,True
+share_july,Saisonnalité,num,0.7332385587960742,0.7332385587960742,croissant,0.9999376651872538,False
+n_tickets_same_month_ly,Saisonnalité,num,0.7315273562041232,0.7315273562041232,croissant,1.0,True
+interval_std_days,Rythme et tendance,num,0.28345184168125703,0.716548158318743,décroissant,0.7415473993916122,True
+spend_same_month_ly,Saisonnalité,num,0.7133886182147695,0.7133886182147695,croissant,1.0,False
+discount_rate_max,Promotions et retours,num,0.7115619936580635,0.7115619936580635,croissant,0.9999314317059792,True
+delay_ratio_median,Rythme et tendance,num,0.2969380877718202,0.7030619122281798,décroissant,0.8330050366528698,False
+last_interval_days,Récence,num,0.29712835495089157,0.7028716450491084,décroissant,0.8330050366528698,True
+delay_ratio_mean,Rythme et tendance,num,0.30010872134550776,0.6998912786544922,décroissant,0.8330050366528698,True
+tenure_obs_days,Récence,num,0.6978343814683379,0.6978343814683379,croissant,0.9999376651872538,True
+max_tickets_per_day,Fréquence,num,0.6928162755193195,0.6928162755193195,croissant,1.0,True
+share_lockdown,Saisonnalité,num,0.6743233674703872,0.6743233674703872,croissant,0.9999376651872538,True
+delay_z,Rythme et tendance,num,0.3270678700177925,0.6729321299822075,décroissant,0.7415473993916122,False
+tickets_per_active_day,Fréquence,num,0.6615852287259546,0.6615852287259546,croissant,0.9999376651872538,False
+basket_max_all,Montant,num,0.6574498309797865,0.6574498309797865,croissant,0.9999376651872538,True
+share_pay_gift,Paiement,num,0.6489123618312981,0.6489123618312981,croissant,0.9999376651872538,True
+bought_same_month_ly,Saisonnalité,bin,0.6450051008809499,0.6450051008809499,croissant,1.0,True
+share_pay_mixed,Paiement,num,0.6407892283252943,0.6407892283252943,croissant,0.9999376651872538,True
+interval_max_days,Rythme et tendance,num,0.3608514279762796,0.6391485720237204,décroissant,0.8330050366528698,True
+share_saturday,Saisonnalité,num,0.634174698763944,0.634174698763944,croissant,0.9999376651872538,True
+share_xmas,Saisonnalité,num,0.6320817129126653,0.6320817129126653,croissant,0.9999376651872538,True
+share_weekend,Saisonnalité,num,0.6310301160369736,0.6310301160369736,croissant,0.9999376651872538,True
+interval_min_days,Rythme et tendance,num,0.37088710428050803,0.629112895719492,décroissant,0.8330050366528698,True
+has_interval_std,Rythme et tendance,bin,0.6275383341469344,0.6275383341469344,croissant,1.0,True
+discount_rate_all,Promotions et retours,num,0.6196655911550505,0.6196655911550505,croissant,0.9999314317059792,True
+share_summer_months,Saisonnalité,num,0.6151784573710373,0.6151784573710373,croissant,0.9999376651872538,True
+discount_rate_90,Promotions et retours,num,0.6068514733183159,0.6068514733183159,croissant,0.6107627287687628,True
+share_morning,Saisonnalité,num,0.6016290357421369,0.6016290357421369,croissant,0.9999376651872538,True
+n_stores,Magasins,num,0.6007661701314663,0.6007661701314663,croissant,1.0,True
+trend_freq_90,Rythme et tendance,num,0.5857249360370708,0.5857249360370708,croissant,1.0,True
+is_one_shot,Rythme et tendance,bin,0.4158531157536612,0.5841468842463389,décroissant,1.0,True
+dept,Profil client,cat,0.5797125921746858,0.5797125921746858,taux par modalité,1.0,True
+share_pay_none,Paiement,num,0.5702064603304413,0.5702064603304413,croissant,0.9999376651872538,True
+main_store_share,Magasins,num,0.4299911934095452,0.5700088065904547,décroissant,0.9999376651872538,False
+price_segment,Segment de prix,cat,0.5690260802643095,0.5690260802643095,taux par modalité,1.0,True
+share_tickets_disc,Promotions et retours,num,0.5680629700273137,0.5680629700273137,croissant,0.9999376651872538,True
+share_evening,Saisonnalité,num,0.5666450106328972,0.5666450106328972,croissant,0.9999376651872538,True
+items_per_ticket_mean,Montant,num,0.5583263832064157,0.5583263832064157,croissant,0.9999376651872538,True
+price_segment_missing,Segment de prix,bin,0.4438845660226798,0.5561154339773202,décroissant,1.0,True
+civility,Profil client,cat,0.5558602525561448,0.5558602525561448,taux par modalité,1.0,True
+trend_spend_90,Rythme et tendance,num,0.5544121151081707,0.5544121151081707,croissant,1.0,True
+basket_std_all,Montant,num,0.5537005696031699,0.5537005696031699,croissant,0.8330050366528698,True
+n_regions,Magasins,num,0.5528857231800526,0.5528857231800526,croissant,1.0,True
+dept_missing,Profil client,bin,0.44712871304918417,0.5528712869508159,décroissant,1.0,True
+email_domain,Profil client,cat,0.5490951731629676,0.5490951731629676,taux par modalité,1.0,True
+last_interval_ratio,Rythme et tendance,num,0.4509685739479985,0.5490314260520015,décroissant,0.8330050366528698,True
+email_type,Profil client,cat,0.5465920993505808,0.5465920993505808,taux par modalité,1.0,True
+share_pay_cash,Paiement,num,0.5457652330031166,0.5457652330031166,croissant,0.9999376651872538,True
+share_pay_card,Paiement,num,0.45559673053565863,0.5444032694643414,décroissant,0.9999376651872538,True
+price_per_item_mean,Montant,num,0.4577759587104088,0.5422240412895911,décroissant,0.9999314317059792,True
+has_email,Profil client,bin,0.5409605768592041,0.5409605768592041,croissant,1.0,True
+main_store_client_share,Magasins,num,0.4613751060350359,0.538624893964964,décroissant,0.9999376651872538,True
+main_store_region,Magasins,cat,0.5374844495721023,0.5374844495721023,taux par modalité,1.0,True
+basket_90_vs_hist,Rythme et tendance,num,0.5369910608286812,0.5369910608286812,croissant,0.6107627287687628,True
+share_pay_cheque,Paiement,num,0.5360775912792711,0.5360775912792711,croissant,0.9999376651872538,True
+interval_cv,Rythme et tendance,num,0.5298775818881448,0.5298775818881448,croissant,0.7402820026928639,True
+n_returns,Promotions et retours,num,0.5248241635443156,0.5248241635443156,croissant,1.0,True
+return_amount,Promotions et retours,num,0.5247713774355873,0.5247713774355873,croissant,1.0,False
+share_returns,Promotions et retours,num,0.5244499132142872,0.5244499132142872,croissant,1.0,False
+basket_mean_all,Montant,num,0.5215116556682247,0.5215116556682247,croissant,0.9999376651872538,True
+basket_mean_180,Montant,num,0.5166541458190115,0.5166541458190115,croissant,0.7465715852989577,True
+multicard,Profil client,bin,0.5159919948737551,0.5159919948737551,croissant,1.0,True
+has_card,Profil client,bin,0.5155842152810748,0.5155842152810748,croissant,1.0,True
+is_new_90,Rythme et tendance,bin,0.4861638735065256,0.5138361264934743,décroissant,1.0,True
+main_store_outside_home_dept,Magasins,bin,0.4877128162507812,0.5122871837492188,décroissant,1.0,True
+basket_mean_disc,Promotions et retours,num,0.48787537973791795,0.512124620262082,décroissant,0.746945594175435,True
+basket_mean_nodisc,Promotions et retours,num,0.509913866463399,0.509913866463399,croissant,0.9156734653169102,True
+last_store_is_main,Magasins,bin,0.49201568913824434,0.5079843108617557,décroissant,1.0,True
+card_tenure_days,Profil client,num,0.5074533482365895,0.5074533482365895,croissant,0.03084949882810552,True
+basket_mean_30,Montant,num,0.4928658689438181,0.5071341310561819,décroissant,0.42942452500872685,True
+basket_mean_90,Montant,num,0.505522312324528,0.505522312324528,croissant,0.6107627287687628,True
+basket_median_all,Montant,num,0.5034394596900444,0.5034394596900444,croissant,0.9999376651872538,False
+card_joined_in_window,Profil client,bin,0.5025120478024817,0.5025120478024817,croissant,1.0,True
+anonymous,Profil client,bin,0.49758142081261303,0.502418579187387,décroissant,1.0,True

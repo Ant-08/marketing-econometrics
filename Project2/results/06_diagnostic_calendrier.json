@@ -1,0 +1,20 @@
+{
+  "auc_final": 0.8785470532630636,
+  "auc_sans_weekend": 0.8727567930324838,
+  "perte_auc": 0.0057902602305798245,
+  "perte_auc_par_pli": [
+    0.006091828784355324,
+    0.005624419742587983,
+    0.00568456722614652,
+    0.007096644850589473,
+    0.004386817191310399
+  ],
+  "rappel_top10_final": 0.5262265978050356,
+  "rappel_top10_sans_weekend": 0.5082311168495803,
+  "lift_top10_sans_weekend": 5.082437893621561,
+  "auc_lasso": 0.8713689421870853,
+  "part_weekend_aout_2020": 0.3225806451612903,
+  "part_weekend_aout_2019": 0.2903225806451613,
+  "part_weekend_moyenne_12_mois": 0.2842850080336176,
+  "rho_scores_test_final_vs_sans_weekend": 0.9844771308780081
+}

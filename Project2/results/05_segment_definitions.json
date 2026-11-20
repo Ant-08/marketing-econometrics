@@ -1,0 +1,123 @@
+{
+  "segments": [
+    "Top",
+    "Good",
+    "Decel",
+    "Small",
+    "Weak",
+    "New",
+    "Inactive"
+  ],
+  "rules": {
+    "order": [
+      "Inactive",
+      "New",
+      "FM x R"
+    ],
+    "inactive": "recency_days > 180 ou aucun achat",
+    "new": "tenure_obs_days < 90 (et non Inactive)",
+    "fm_grid": "slide 24 : Low FM = (F bas, M bas), (F bas, M moyen), (F moyen, M bas) ; High FM = (F moyen, M haut), (F haut, M moyen), (F haut, M haut) ; Medium FM = les 3 autres",
+    "cell_to_segment": {
+      "9": "Top",
+      "8": "Top",
+      "6": "Good",
+      "5": "Good",
+      "3": "Decel",
+      "2": "Decel",
+      "7": "Small",
+      "4": "Small",
+      "1": "Weak",
+      "New": "New",
+      "Inactive": "Inactive"
+    }
+  },
+  "default_approach": "business",
+  "thresholds_business": {
+    "R": {
+      "high_max_days": 14,
+      "medium_max_days": 60
+    },
+    "F": {
+      "low_max": 5,
+      "medium_max": 24
+    },
+    "M": {
+      "low_max": 150.0,
+      "medium_max": 1000.0
+    }
+  },
+  "thresholds_quantiles_train": {
+    "R": {
+      "high_max_days": 8.0,
+      "medium_max_days": 45.0
+    },
+    "F": {
+      "low_max": 9.0,
+      "medium_max": 27.0
+    },
+    "M": {
+      "low_max": 334.77,
+      "medium_max": 1179.1
+    },
+    "source": "tertiles du train, hors New et Inactive"
+  },
+  "definitions": {
+    "R": "recency_days (jours depuis le dernier achat)",
+    "F": "n_tickets_all (tickets d'achat sur 12 mois)",
+    "M": "spend_all (€ sur 12 mois, retours exclus, plafonné au P99,9)"
+  },
+  "clustering": {
+    "variables": [
+      "log_recency",
+      "log_n_tickets_all",
+      "trend_freq_90",
+      "log_basket_mean",
+      "log_price_per_item",
+      "discount_rate_all",
+      "share_weekend",
+      "share_evening",
+      "n_stores"
+    ],
+    "standardisation": "moyenne 0, écart-type 1 (train)",
+    "pca_components": 6,
+    "pca_variance_explained": 0.8330628289606892,
+    "k": 6,
+    "silhouette_k6": 0.17090214715698737,
+    "class_names": {
+      "1": "C1 Réguliers",
+      "3": "C3 Montants",
+      "6": "C6 Week-end",
+      "5": "C5 Soirée",
+      "4": "C4 Paniers premium",
+      "2": "C2 Petits paniers"
+    },
+    "reallocation_tree": {
+      "max_depth": 4,
+      "min_samples_leaf": 300,
+      "features": [
+        "recency_days",
+        "n_tickets_all",
+        "trend_freq_90",
+        "basket_mean_all",
+        "price_per_item_mean",
+        "discount_rate_all",
+        "share_weekend",
+        "share_evening",
+        "n_stores"
+      ],
+      "cv_accuracy": 0.7604036802473445,
+      "logistic_cv_accuracy": 0.9356829402084477
+    }
+  },
+  "ab_test": {
+    "control_share": 0.3,
+    "alpha": 0.05,
+    "power": 0.8,
+    "population": "e-mailables, train + test"
+  },
+  "recommended_segment": "Good",
+  "shortlist": [
+    "Good",
+    "C3 Montants"
+  ]
+}

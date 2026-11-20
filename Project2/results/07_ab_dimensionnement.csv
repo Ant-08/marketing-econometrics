@@ -1,0 +1,31 @@
+,population,rachat_de_base,uplift_pts,uplift_relatif,part_témoin,n_total_requis,n_témoin,tient_dans_Good
+0,Good tous e-mailables,6.9608,0.5,7.1831,0.5,84000.225,42000.1125,False
+1,Good tous e-mailables,6.9608,0.5,7.1831,0.3,100000.2678,30000.0804,False
+2,Good tous e-mailables,6.9608,0.5,7.1831,0.2,131250.3515,26250.0703,False
+3,Good tous e-mailables,6.9608,1.0,14.3663,0.5,21652.5976,10826.2988,False
+4,Good tous e-mailables,6.9608,1.0,14.3663,0.3,25776.9019,7733.0706,False
+5,Good tous e-mailables,6.9608,1.0,14.3663,0.2,33832.1837,6766.4367,False
+6,Good tous e-mailables,6.9608,1.5,21.5494,0.5,9907.2121,4953.6061,True
+7,Good tous e-mailables,6.9608,1.5,21.5494,0.3,11794.3002,3538.29,True
+8,Good tous e-mailables,6.9608,1.5,21.5494,0.2,15480.019,3096.0038,True
+9,Good tous e-mailables,6.9608,2.0,28.7325,0.5,5729.2381,2864.6191,True
+10,Good tous e-mailables,6.9608,2.0,28.7325,0.3,6820.5216,2046.1565,True
+11,Good tous e-mailables,6.9608,2.0,28.7325,0.2,8951.9346,1790.3869,True
+12,Good tous e-mailables,6.9608,3.0,43.0988,0.5,2681.4505,1340.7252,True
+13,Good tous e-mailables,6.9608,3.0,43.0988,0.3,3192.2029,957.6609,True
+14,Good tous e-mailables,6.9608,3.0,43.0988,0.2,4189.7664,837.9533,True
+15,Good 50 % haut du score,9.7296,0.5,5.139,0.5,112801.8048,56400.9024,False
+16,Good 50 % haut du score,9.7296,0.5,5.139,0.3,134287.8628,40286.3588,False
+17,Good 50 % haut du score,9.7296,0.5,5.139,0.2,176252.8199,35250.564,False
+18,Good 50 % haut du score,9.7296,1.0,10.2779,0.5,28814.7262,14407.3631,False
+19,Good 50 % haut du score,9.7296,1.0,10.2779,0.3,34303.2455,10290.9736,False
+20,Good 50 % haut du score,9.7296,1.0,10.2779,0.2,45023.0097,9004.6019,False
+21,Good 50 % haut du score,9.7296,1.5,15.4169,0.5,13074.6126,6537.3063,True
+22,Good 50 % haut du score,9.7296,1.5,15.4169,0.3,15565.015,4669.5045,True
+23,Good 50 % haut du score,9.7296,1.5,15.4169,0.2,20429.0822,4085.8164,False
+24,Good 50 % haut du score,9.7296,2.0,20.5559,0.5,7502.6196,3751.3098,True
+25,Good 50 % haut du score,9.7296,2.0,20.5559,0.3,8931.69,2679.507,True
+26,Good 50 % haut du score,9.7296,2.0,20.5559,0.2,11722.8431,2344.5686,True
+27,Good 50 % haut du score,9.7296,3.0,30.8338,0.5,3462.8903,1731.4452,True
+28,Good 50 % haut du score,9.7296,3.0,30.8338,0.3,4122.4885,1236.7465,True
+29,Good 50 % haut du score,9.7296,3.0,30.8338,0.2,5410.7662,1082.1532,True

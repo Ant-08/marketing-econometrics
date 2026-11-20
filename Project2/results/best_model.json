@@ -1,0 +1,33 @@
+{
+  "modele_final": "lgbm_tuned",
+  "reference_interpretable": "logreg_lasso",
+  "auc_oof": 0.8785470532630636,
+  "auc_plis_moyenne": 0.8785908771583746,
+  "auc_plis_ecart_type": 0.0021869033122062648,
+  "precision_top10": 0.4064954494452063,
+  "rappel_top10": 0.5262265978050356,
+  "lift_top10": 5.262397190267736,
+  "logloss": 0.18969574631979058,
+  "auc_reference_lasso": 0.8713689421870853,
+  "auc_recence": 0.8180452984298826,
+  "predictions": "final_lgbm",
+  "soumission": "submissions/06_final.csv (non envoyée à Kaggle)",
+  "auc_sans_variables_weekend": 0.8727567930324838,
+  "ic95_auc_bootstrap": [
+    0.8758836634753083,
+    0.8816346301183493
+  ],
+  "hyperparametres": {
+    "num_leaves": 31,
+    "min_child_samples": 50,
+    "subsample": 0.6,
+    "colsample_bytree": 0.4,
+    "reg_lambda": 20.0,
+    "reg_alpha": 0.1,
+    "learning_rate": 0.04,
+    "subsample_freq": 1,
+    "n_estimators": 207
+  },
+  "n_colonnes": 170,
+  "n_jobs": 4
+}

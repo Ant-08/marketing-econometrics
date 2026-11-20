@@ -1,0 +1,374 @@
+{
+  "cap_quantile": 0.999,
+  "caps": {
+    "n_tickets_7": [
+      null,
+      8.0
+    ],
+    "n_tickets_14": [
+      null,
+      15.0
+    ],
+    "n_tickets_30": [
+      null,
+      31.0
+    ],
+    "n_tickets_60": [
+      null,
+      62.0
+    ],
+    "n_tickets_90": [
+      null,
+      89.0
+    ],
+    "n_tickets_180": [
+      null,
+      165.57699999999022
+    ],
+    "n_tickets_all": [
+      null,
+      335.0
+    ],
+    "n_active_days": [
+      null,
+      240.57699999999022
+    ],
+    "n_active_weeks": [
+      null,
+      53.0
+    ],
+    "n_active_months": [
+      null,
+      12.0
+    ],
+    "max_tickets_per_day": [
+      null,
+      7.0
+    ],
+    "tickets_per_active_day": [
+      null,
+      3.0
+    ],
+    "spend_30": [
+      null,
+      1421.744639999997
+    ],
+    "spend_60": [
+      null,
+      2644.6334656398544
+    ],
+    "spend_90": [
+      null,
+      3899.5311199999555
+    ],
+    "spend_180": [
+      null,
+      7201.702499999976
+    ],
+    "spend_all": [
+      null,
+      14422.474246539925
+    ],
+    "basket_mean_30": [
+      null,
+      411.15107000000165
+    ],
+    "basket_mean_90": [
+      null,
+      397.50138565714315
+    ],
+    "basket_mean_180": [
+      null,
+      397.66309999999504
+    ],
+    "basket_mean_all": [
+      null,
+      457.8265399999998
+    ],
+    "basket_median_all": [
+      null,
+      460.92219999999975
+    ],
+    "basket_max_all": [
+      null,
+      468.65166000000204
+    ],
+    "basket_std_all": [
+      null,
+      226.8254195451237
+    ],
+    "items_30": [
+      null,
+      469.5769999999902
+    ],
+    "items_90": [
+      null,
+      1288.7309999999707
+    ],
+    "items_all": [
+      null,
+      4530.038999999932
+    ],
+    "items_per_ticket_mean": [
+      null,
+      111.0
+    ],
+    "price_per_item_mean": [
+      null,
+      189.0
+    ],
+    "interval_mean_days": [
+      null,
+      326.0
+    ],
+    "interval_median_days": [
+      null,
+      326.0
+    ],
+    "interval_std_days": [
+      null,
+      210.7453979580605
+    ],
+    "interval_min_days": [
+      null,
+      326.0
+    ],
+    "interval_max_days": [
+      null,
+      340.0
+    ],
+    "interval_cv": [
+      null,
+      4.634374317467378
+    ],
+    "delay_ratio_mean": [
+      null,
+      359.0
+    ],
+    "delay_ratio_median": [
+      null,
+      359.0
+    ],
+    "delay_z": [
+      -8.825548600574797,
+      345.0
+    ],
+    "last_interval_ratio": [
+      null,
+      18.851289875173354
+    ],
+    "trend_freq_90": [
+      -2.833213344056216,
+      2.995732273553991
+    ],
+    "trend_spend_90": [
+      -6.80064280098172,
+      7.098855928140474
+    ],
+    "freq_30_vs_rate": [
+      null,
+      6.9876242882172495
+    ],
+    "basket_90_vs_hist": [
+      null,
+      4.131243628512599
+    ],
+    "n_tickets_same_month_ly": [
+      null,
+      35.0
+    ],
+    "spend_same_month_ly": [
+      null,
+      1566.2948334599498
+    ],
+    "discount_rate_all": [
+      null,
+      0.44311158648073606
+    ],
+    "discount_rate_90": [
+      null,
+      0.4429867593286787
+    ],
+    "discount_rate_max": [
+      null,
+      0.9
+    ],
+    "n_tickets_disc": [
+      null,
+      242.0
+    ],
+    "basket_mean_disc": [
+      null,
+      468.65166000000204
+    ],
+    "basket_mean_nodisc": [
+      null,
+      322.66154523333404
+    ],
+    "n_returns": [
+      null,
+      6.0
+    ],
+    "return_amount": [
+      null,
+      271.7754199999955
+    ],
+    "n_stores": [
+      null,
+      8.0
+    ],
+    "n_regions": [
+      null,
+      4.0
+    ],
+    "card_tenure_days": [
+      null,
+      8583.207999999999
+    ]
+  },
+  "rare_levels": {
+    "email_domain": [
+      "ALICEADSL.FR",
+      "AOL.COM",
+      "BBOX.FR",
+      "CEGETEL.NET",
+      "CLUB-INTERNET.FR",
+      "DBMAIL.COM",
+      "FREE.FR",
+      "GMAIL.COM",
+      "GMAIL.FR",
+      "GMX.FR",
+      "HOTMAIL.COM",
+      "HOTMAIL.FR",
+      "ICLOUD.COM",
+      "LAPOSTE.NET",
+      "LIBERTYSURF.FR",
+      "LIVE.FR",
+      "ME.COM",
+      "MSN.COM",
+      "NEUF.FR",
+      "NUMERICABLE.FR",
+      "ORANGE.FR",
+      "OUTLOOK.COM",
+      "OUTLOOK.FR",
+      "SANS_EMAIL",
+      "SFR.FR",
+      "VOILA.FR",
+      "WANADOO.FR",
+      "YAHOO.COM",
+      "YAHOO.FR",
+      "YOPMAIL.COM"
+    ],
+    "dept": [
+      "06",
+      "11",
+      "13",
+      "20",
+      "21",
+      "25",
+      "26",
+      "29",
+      "30",
+      "31",
+      "33",
+      "34",
+      "38",
+      "42",
+      "56",
+      "69",
+      "73",
+      "74",
+      "75",
+      "78",
+      "83",
+      "92",
+      "94",
+      "ETR",
+      "INCONNU"
+    ],
+    "main_store_region": [
+      "06",
+      "11",
+      "12",
+      "13",
+      "20",
+      "21",
+      "25",
+      "26",
+      "29",
+      "30",
+      "31",
+      "33",
+      "34",
+      "38",
+      "42",
+      "47",
+      "49",
+      "56",
+      "63",
+      "69",
+      "71",
+      "73",
+      "74",
+      "75",
+      "78",
+      "83",
+      "92",
+      "94",
+      "95",
+      "INCONNU"
+    ]
+  },
+  "log_columns": [
+    "n_tickets_7",
+    "n_tickets_14",
+    "n_tickets_30",
+    "n_tickets_60",
+    "n_tickets_90",
+    "n_tickets_180",
+    "n_tickets_all",
+    "n_active_days",
+    "tickets_per_active_day",
+    "spend_30",
+    "spend_60",
+    "spend_90",
+    "spend_180",
+    "spend_all",
+    "basket_median_all",
+    "items_30",
+    "items_90",
+    "items_all",
+    "price_per_item_mean",
+    "interval_mean_days",
+    "interval_median_days",
+    "interval_min_days",
+    "delay_ratio_mean",
+    "delay_ratio_median",
+    "last_interval_ratio",
+    "n_tickets_same_month_ly",
+    "spend_same_month_ly",
+    "n_tickets_disc",
+    "n_returns",
+    "return_amount",
+    "n_regions"
+  ],
+  "duplicates_removed": {
+    "n_tickets_90": "n_tickets_60",
+    "n_active_days": "n_tickets_all",
+    "n_active_weeks": "n_tickets_all",
+    "tickets_per_active_day": "max_tickets_per_day",
+    "spend_30": "n_tickets_30",
+    "spend_60": "n_tickets_60",
+    "basket_median_all": "basket_mean_all",
+    "items_30": "n_tickets_30",
+    "items_90": "spend_90",
+    "items_all": "spend_all",
+    "delay_ratio_median": "delay_ratio_mean",
+    "delay_z": "delay_ratio_mean",
+    "spend_same_month_ly": "n_tickets_same_month_ly",
+    "share_july": "freq_30_vs_rate",
+    "share_returns": "n_returns",
+    "return_amount": "n_returns",
+    "main_store_share": "n_stores"
+  }
+}

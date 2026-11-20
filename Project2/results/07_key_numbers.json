@@ -1,0 +1,64 @@
+{
+  "modele_score": "lgbm_tuned",
+  "n_train": 160424,
+  "n_base_complete": 200530,
+  "top10_k_train": 16042,
+  "top10_k_base_complete": 20053,
+  "taux_rachat_base": 0.07724529995511893,
+  "top10_precision_lgbm": 0.4064954494452063,
+  "top10_rappel_lgbm": 0.5262265978050356,
+  "top10_lift_lgbm": 5.262397190267736,
+  "top10_precision_recence": 0.23475875825956863,
+  "top10_precision_rfm": 0.32701658147363166,
+  "rachats_captes_lgbm": 6521.0,
+  "rachats_captes_en_plus_hasard": 5281.8308981199825,
+  "rachats_captes_en_plus_hasard_ic95": [
+    5177.658247830748,
+    5399.241069914726
+  ],
+  "precision_top10_parmi_emailables": 0.32277770851514775,
+  "pct_top10_joignable_email": 0.641378880438848,
+  "part_top_dans_top10": 0.9567385612766488,
+  "good_dans_top10_n": 238,
+  "good_n_base_complete": 30307,
+  "good_n_email_complete": 17486,
+  "good_rachat": 0.0654877494525472,
+  "good_auc_intra": 0.6765394413817978,
+  "good_part_top30": 0.3647481717142503,
+  "good_rachat_tranche_A": 0.13406321008056188,
+  "good_rachat_tranche_C": 0.03578216676307743,
+  "ab_part_temoin": 0.3,
+  "ab_mde_pts_good_tous": 1.2221283437681003,
+  "ab_n_total_pour_1pt": 25776.90189796285,
+  "seuil_rentabilite_uplift_pts_good50": 1.4892249351054063,
+  "net_k_eur": {
+    "Top 10 % par score (e-mailables)": {
+      "abs_central": -8.493447622185615,
+      "rel_central": -3.193444561302489
+    },
+    "Top 10 % par récence (e-mailables)": {
+      "abs_central": -5.710096538031879,
+      "rel_central": -2.477823812537066
+    },
+    "Top 10 % par score RFM (e-mailables)": {
+      "abs_central": -8.334977992664538,
+      "rel_central": -3.23976014083344
+    },
+    "10 % au hasard (e-mailables)": {
+      "abs_central": -0.8765586144445721,
+      "rel_central": -1.1648976767320367
+    },
+    "Good : tous les e-mailables": {
+      "abs_central": -0.24135741006281852,
+      "rel_central": -0.8895889770319878
+    },
+    "Good : e-mailables, 50 % haut du score": {
+      "abs_central": -0.5549805175402784,
+      "rel_central": -0.5856568493574378
+    },
+    "Good : e-mailables, 50 % au hasard": {
+      "abs_central": -0.12719367114999844,
+      "rel_central": -0.4688071842245092
+    }
+  }
+}

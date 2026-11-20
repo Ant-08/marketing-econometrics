@@ -1,0 +1,6 @@
+variable,niveau,médiane,P99,"P99,9",max,asymétrie,asymétrie après log,seuil moyenne+3σ,% au-dessus (3σ),"seuil Tukey 1,5 IQR",% au-dessus (Tukey),seuil 3σ sur log,% au-dessus (3σ log),"% au-dessus de P99,9"
+Panier payé du ticket (€),ticket d'achat,29.37,246.99,468.652,20227.48,22.242,-0.2,217.163,1.553,136.68,6.075,687.243,0.03,0.1
+Articles par ticket,ticket d'achat,10.0,79.0,128.0,2159.0,3.733,0.083,68.099,1.781,45.0,6.665,176.23,0.027,0.097
+Tickets par client (12 mois),client,8.0,155.0,338.0,2985.0,12.851,0.339,128.031,1.608,59.5,8.385,385.578,0.058,0.098
+CA par client sur 12 mois (€),client,330.32,7656.756,14724.461,95053.64,8.252,-0.366,6298.82,1.896,2578.66,10.542,55140.022,0.006,0.1
+Panier moyen par client (€),client,39.361,231.784,478.917,2926.316,6.455,-0.578,203.932,1.439,135.592,4.937,512.934,0.082,0.1

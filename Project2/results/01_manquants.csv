@@ -1,0 +1,8 @@
+,lignes (%),clients (%),nature
+E-mail,38.8,45.3,non renseigné par le client
+Code postal (manquant brut),9.2,19.0,non renseigné
+Code postal (manquant ou invalide),9.2,19.5,non renseigné ou saisie invalide
+Carte de fidélité,93.4,96.9,structurel (pas d'adhésion)
+Segment de prix,47.4,56.7,structurel (politique magasin) + non renseigné
+Civilité,0.2,0.5,absence de fiche client
+Multicard,0.2,0.5,absence de fiche client

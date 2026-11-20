@@ -1,0 +1,18 @@
+,description,type,niveau constant,manquants lignes (%),manquants clients (%),valeurs distinctes
+id_client,Identifiant client,entier,client,0.0,0.0,160424
+transaction_date,"Date et heure du ticket (UTC, à la minute)",texte ISO,ticket,0.0,0.0,285764
+stores_nb,"Magasin : 2 premiers chiffres = département, 3 derniers = n° de magasin",entier,ticket,0.0,0.0,1453
+item_count,Nombre d'articles,entier,ligne,0.0,0.0,433
+gross_amount,Montant brut (€),décimal,ligne,0.0,0.0,45175
+discount_amount,Remises (€),décimal,ligne,0.0,0.0,13218
+basket_value,Montant payé (€) = brut − remises,décimal,ligne,0.0,0.0,43138
+payment_gift,Payé (en partie) par cadeau / avoir,0/1,ligne,0.0,0.0,2
+payment_cheque,Payé (en partie) par chèque,0/1,ligne,0.0,0.0,2
+payment_cash,Payé (en partie) en espèces,0/1,ligne,0.0,0.0,2
+payment_card,Payé (en partie) par carte bancaire,0/1,ligne,0.0,0.0,2
+email_domain,"Domaine de l'e-mail, si renseigné",catégorielle,client,38.8,45.3,2474
+civility,"Civilité : M, MME, NR (non renseigné)",catégorielle,client,0.2,0.5,3
+zip_code,Code INSEE / postal du client,texte,client,9.2,19.0,4862
+card_subscription,Date d'adhésion à la carte de fidélité (JJ/MM/AAAA),date,client,93.4,96.9,1969
+multicard,Inscrit à des programmes de fidélité d'autres enseignes,0/1,client,0.2,0.5,3
+price_segmentation,"Segment de prix des produits achetés : Access, Mixte, Quali, xx, 8",catégorielle,client,47.4,56.7,5

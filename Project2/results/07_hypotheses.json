@@ -1,0 +1,30 @@
+{
+  "MESURE (données)": {
+    "taux_rachat_base": 0.07724529995511893,
+    "taux_rachat_par_strategie": "voir 07_scenarios_economiques.csv (p_rachat)",
+    "panier_moyen": "basket_mean_all moyen des clients ciblés (12 mois)",
+    "effectifs": "train + test (base complète)",
+    "scores": "lgbm_tuned, hors-échantillon (CV 5 plis)"
+  },
+  "SUPPOSE (hypothèses)": {
+    "contact_cost": 0.02,
+    "margin": 0.25,
+    "discount": 0.1,
+    "redeem": 0.3,
+    "uplift_abs": {
+      "bas": 0.005,
+      "central": 0.01,
+      "haut": 0.02
+    },
+    "uplift_rel": {
+      "bas": 0.05,
+      "central": 0.1,
+      "haut": 0.2
+    }
+  },
+  "test_AB": {
+    "alpha": 0.05,
+    "puissance": 0.8,
+    "part_temoin_retenue": 0.3
+  }
+}

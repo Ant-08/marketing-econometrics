@@ -1,5 +1,6 @@
 # Données et documents fournis par l'enseignante (non publiés)
 Project1/Data/
+Project2/Data/
 *.pdf
 Project1/Notebook_project1_practical_work_empty.ipynb
 
@@ -11,3 +12,10 @@ __pycache__/
 # Dépendances Node du script de génération du deck
 node_modules/
 package-lock.json
+
+# Environnement Python local (uv)
+.venv/
+
+# Soumissions Kaggle (non publiées pendant la compétition) et fichiers macOS
+Project2/submissions/
+.DS_Store

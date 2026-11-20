@@ -1,0 +1,82 @@
+{
+  "protocole": {
+    "folds": "c.get_folds() (5 plis)",
+    "sous_echantillon_recherche": 40000,
+    "plis_internes_recherche": 3,
+    "n_jobs": 5,
+    "random_search_configs": {
+      "rf": 18,
+      "xgb_lgbm": 30
+    },
+    "grid_search": {
+      "learning_rate": [
+        0.04,
+        0.07,
+        0.1
+      ],
+      "cles": "taille des arbres x taille minimale des feuilles"
+    },
+    "nb_arbres_gbm": "arrêt anticipé sur le pli 0 (jeu complet), puis fixé en CV"
+  },
+  "rf_tuned": {
+    "n_estimators": 100,
+    "max_features": 0.3,
+    "min_samples_leaf": 50,
+    "max_depth": 16,
+    "max_samples": 0.7
+  },
+  "xgb_tuned": {
+    "max_depth": 4,
+    "min_child_weight": 5,
+    "subsample": 1.0,
+    "colsample_bytree": 0.4,
+    "reg_lambda": 1.0,
+    "reg_alpha": 0.1,
+    "gamma": 0.5,
+    "learning_rate": 0.07,
+    "n_estimators": 283
+  },
+  "lgbm_tuned": {
+    "num_leaves": 31,
+    "min_child_samples": 50,
+    "subsample": 0.6,
+    "colsample_bytree": 0.4,
+    "reg_lambda": 20.0,
+    "reg_alpha": 0.1,
+    "learning_rate": 0.04,
+    "subsample_freq": 1,
+    "n_estimators": 207
+  },
+  "desequilibre": {
+    "scale_pos_weight_rapport_complet": 11.945771465461588,
+    "class_weight_rf": "balanced_subsample",
+    "retenu_pour_le_meilleur_modele": false
+  },
+  "meilleur_modele_notebook_04": {
+    "nom": "lgbm_tuned",
+    "auc": 0.8785470532630636,
+    "params": {
+      "num_leaves": 31,
+      "min_child_samples": 50,
+      "subsample": 0.6,
+      "colsample_bytree": 0.4,
+      "reg_lambda": 20.0,
+      "reg_alpha": 0.1,
+      "learning_rate": 0.04,
+      "subsample_freq": 1,
+      "n_estimators": 207
+    }
+  },
+  "variables": {
+    "jumeaux_log_retires": 19,
+    "colonnes_encodees": 170,
+    "variables_profil_identite": [
+      "civility",
+      "has_email",
+      "email_domain",
+      "email_type",
+      "dept",
+      "dept_missing"
+    ]
+  }
+}
