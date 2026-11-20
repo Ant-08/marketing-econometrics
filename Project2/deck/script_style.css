@@ -1,0 +1,56 @@
+:root{color-scheme:dark}
+*{box-sizing:border-box}
+html{background:#0e1116;scroll-behavior:smooth}
+body{background:#0e1116;color:#e4e7ec;font:18px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;margin:0 auto;max-width:1500px;padding:2rem 1.5rem 6rem}
+header h1.title{font-size:1.8rem;color:#fff;margin:0 0 .2rem}
+.sub{color:#9aa4b2;margin:0 0 1.2rem;font-size:.95rem}
+nav#TOC{background:#161b22;border:1px solid #2a313c;border-radius:10px;padding:.8rem 1.25rem;margin:0 0 2rem;font-size:.85rem;line-height:1.5}
+nav#TOC ul{list-style:none;padding:0;margin:.2rem 0}
+nav#TOC ul ul{display:flex;flex-wrap:wrap;gap:.1rem .55rem;padding:.2rem 0 .5rem 0}
+nav#TOC a{color:#8fb4ff;text-decoration:none}
+nav#TOC a:hover{text-decoration:underline}
+nav#TOC>ul>li>a{color:#fff;font-weight:600}
+h1{font-size:1.35rem;margin:3.2rem 0 1.2rem;padding:.5rem .9rem;border-left:4px solid #6ea8fe;background:#161b22;border-radius:0 8px 8px 0;color:#fff;display:flex;justify-content:space-between;align-items:baseline;gap:1rem;flex-wrap:wrap}
+h1 .meta{font-size:.8rem;color:#9aa4b2;font-weight:400}
+.row{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:2rem;align-items:start;padding:1.6rem 0;border-top:1px solid #222a35;scroll-margin-top:.5rem}
+.row.full{grid-template-columns:minmax(0,1fr);max-width:980px}
+.txt{opacity:.62;transition:opacity .2s}
+.row.on .txt{opacity:1}
+h2{font-size:1.05rem;margin:0 0 .5rem;color:#7fd1b9;display:flex;align-items:center;gap:.6rem;flex-wrap:wrap}
+h2 .num{background:#1f3a35;color:#9ff0d6;border-radius:6px;padding:.05rem .5rem;font-size:.9rem;font-variant-numeric:tabular-nums}
+h2 .t{margin-left:auto;font-size:.8rem;color:#9aa4b2;font-weight:400;font-variant-numeric:tabular-nums}
+.txt p{margin:.6rem 0}
+.txt p.note{font-size:.88rem;color:#e8c27a;border-left:3px solid #5a4a22;padding:.1rem 0 .1rem .7rem;margin:.9rem 0 .2rem}
+.sl{margin:0;position:sticky;top:1rem}
+.sl img{width:100%;height:auto;display:block;border-radius:10px;border:1px solid #2a313c;box-shadow:0 6px 24px rgba(0,0,0,.45)}
+.why{margin:1rem 0 .4rem;border:1px solid #2a313c;border-left:3px solid #6ea8fe;border-radius:8px;background:#121821;padding:.2rem .9rem;font-size:.92rem;line-height:1.6}
+.why summary{cursor:pointer;color:#8fb4ff;font-weight:600;padding:.4rem 0}
+.why p{margin:.5rem 0}
+.why p.say{color:#9ff0d6;font-style:italic}
+.why table{border-collapse:collapse;margin:.4rem 0;width:100%;font-size:.88rem}
+.why th,.why td{border:1px solid #2a313c;padding:.3rem .5rem;text-align:left}
+.why th{background:#161b22;color:#fff}
+.why ul{margin:.4rem 0;padding-left:1.2rem}
+.qa h3{font-size:1rem;color:#9ff0d6;margin:1.2rem 0 .2rem}
+.qa p{margin:.2rem 0 .8rem}
+#recite{position:fixed;right:1rem;bottom:1rem;z-index:10;background:#161b22;color:#e4e7ec;border:1px solid #2a313c;border-radius:999px;padding:.5rem .95rem;font:600 .8rem -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;cursor:pointer;box-shadow:0 4px 16px rgba(0,0,0,.5)}
+#recite[aria-pressed="true"]{background:#1f3a35;border-color:#7fd1b9;color:#9ff0d6}
+body.recite .txt p:not(.note){filter:blur(7px);transition:filter .15s;cursor:pointer}
+body.recite .txt p:not(.note):hover,body.recite .txt p.shown{filter:none}
+@media (max-width:900px){
+ body{font-size:17px;padding:1.2rem 1rem 4rem}
+ .row{grid-template-columns:1fr;gap:1rem}
+ .sl{position:static;order:-1}
+ .txt{opacity:1}
+}
+@media print{html,body{background:#fff;color:#000}.row{break-inside:avoid}#recite{display:none}}
+
+h4.qh{font-size:1.25rem;color:#fff;margin:2.4rem 0 .6rem;padding:.4rem .8rem;border-left:4px solid #6ea8fe;background:#161b22;border-radius:0 8px 8px 0}
+h4.grp{font-size:1rem;color:#7fd1b9;margin:1.8rem 0 .2rem;text-transform:none;border-bottom:1px solid #222a35;padding-bottom:.2rem}
+.qa p.src{font-size:.82rem;color:#9aa4b2;margin:.1rem 0 .8rem}
+.qa code,.why code{background:#161b22;border:1px solid #2a313c;border-radius:4px;padding:0 .3rem;font-size:.85em}
+.qa table{border-collapse:collapse;margin:.6rem 0;width:100%;font-size:.88rem}
+.qa th,.qa td{border:1px solid #2a313c;padding:.35rem .55rem;text-align:left;vertical-align:top}
+.qa th{background:#161b22;color:#fff}
+.qa ul{padding-left:1.2rem}.qa li{margin:.25rem 0}
+.row.qa{max-width:1100px}
